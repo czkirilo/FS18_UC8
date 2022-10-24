@@ -37,3 +37,13 @@ for (let nome of nomeDeAlunos){
 }
 
 //||||||||||||||||||||||||||||||||||||||||||||||||||
+
+let acompanhado = true
+let idade = 28
+let ingresso = true // atribuindo o valor true a variavel ingresso 
+
+if(ingresso == true && idade <= 18 || acompanhado == true){ // comparando se o valor dentro da variavel ingresso eh realmente true
+    console.log("bem vindo a festa!!")
+}else{
+    console.log("Você não tem permissão para entrar")
+}
