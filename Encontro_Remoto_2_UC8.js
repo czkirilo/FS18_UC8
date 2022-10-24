@@ -28,3 +28,12 @@ while (contador <= numeroDeAlunos){
     contador++
 }
 
+//|||||||||||||||||||||||||||||||||||||||||||
+
+
+let nomeDeAlunos = ["Caique", "Thiago", "Jessica", "Odirlei"]
+for (let nome of nomeDeAlunos){
+    console.log(`Esta pessoa se chama ${nome}`)
+}
+
+//||||||||||||||||||||||||||||||||||||||||||||||||||
