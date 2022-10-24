@@ -12,15 +12,19 @@ OK - Se o número for zero, escreva ‘zero’ e o número correspondente
  
 let numeroDeAlunos = 10
 // contador++ eh a mesma coisa que contador = contador + 1 / exemplo: x = 3, x = 3 + 1
-for (let contador = 0; contador <= numeroDeAlunos; contador++){
+
+let contador = 0
+while (contador <= numeroDeAlunos){
     //console.log(contador)
 
     if (contador == 0){
         console.log("o numero atual eh zero")
-    }else if (contador % 2 == 0){
-        console.log("O numero "+ contador + " eh PAR")
+    }else if (contador % 2 != 0){
+        console.log("O numero "+ contador + " eh IMPAR")
     }else{
-        console.log(`O numero ${contador} é IMPAR`)
+        console.log(`O numero ${contador} é PAR`)
     }
+
+    contador++
 }
 
